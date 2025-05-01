@@ -1,0 +1,58 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('/images/spa-bath.jpg'); /* замени на своё */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    color: #fffdf8;
+  }
+  
+  .hero-overlay {
+    background: linear-gradient(to top, rgba(60, 45, 35, 0.8), rgba(60, 45, 35, 0.4));
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    max-width: 700px;
+    padding: 0 20px;
+  }
+  
+  .hero-title {
+    font-size: 42px;
+    margin-bottom: 16px;
+    color: #fffaf4;
+  }
+  
+  .hero-subtitle {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 32px;
+    color: #e6dbd0;
+  }
+  
+  .hero-button {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: transparent;
+    border: 1px solid #fffaf4;
+    color: #fffaf4;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #fffaf4;
+    color: #3c2e27;
+  }

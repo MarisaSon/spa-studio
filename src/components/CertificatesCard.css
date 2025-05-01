@@ -1,0 +1,65 @@
+.certificate-container {
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: #fffdf8;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  align-items: flex-start;
+}
+
+.certificate-image img {
+  width: 400px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.certificate-content {
+  flex: 1;
+  font-family: "Inter", sans-serif;
+  color: #4b3a2f;
+}
+
+.certificate-content h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  color: #3c2e27;
+  margin-bottom: 16px;
+}
+
+.certificate-content .content {
+  font-size: 16px;
+  line-height: 1.6;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.certificate-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.certificate-content .poetic {
+  font-style: italic;
+  color: #7b5e4e;
+}
+
+.certificate-content button {
+  background-color: #a96f60;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 24px;
+}
+
+.certificate-content button:hover {
+  background-color: #935e52;
+}
