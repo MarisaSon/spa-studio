@@ -9,10 +9,6 @@ export default function CertificatesCard({ certificate }) {
 
       <div className="certificate-content">
         <h1>{title}</h1>
-        {/* <span className="content">
-          Поделитесь радостью и заботой с близкими, подарив им сертификат на
-          массаж и СПА ритуал в нашей уютной спа студии.
-        </span> */}
         <p>{description}</p>
         <p>{price}</p>
         <button>Приобрести сертификат</button>
