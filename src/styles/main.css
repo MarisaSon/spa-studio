@@ -108,6 +108,22 @@ body {
   background-color: #5a4a40;
 }
 
+.clear-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #a96f60;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.clear-button:hover {
+  background-color: #bbb;
+}
+
 .contacts-container {
   max-width: 800px;
   margin: 0 auto;

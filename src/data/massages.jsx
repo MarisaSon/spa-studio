@@ -14,7 +14,7 @@ const massages = [
     description: "Легкий массаж всего тела с травянными мешочками.",
     time: 60,
     price: 4000,
-    img: "/home_page/oil-massage.jpg",
+    img: "/home_page/massage.png",
     type: "massage",
   },
   {
@@ -23,7 +23,7 @@ const massages = [
     description: "Массаж с теплыми камнями.",
     time: 120,
     price: 5000,
-    img: "/home_page/stone-massage.jpg",
+    img: "/home_page/hot_stone_massage_.png",
     type: "massage",
   },
   {

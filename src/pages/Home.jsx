@@ -11,8 +11,8 @@ function Home() {
     infinite: true,
     autoplay: true,
     autoplaySpeed: 3000,
-    speed: 2000, // плавность переключения
-    fade: true, // <--- ВОТ ОН fade
+    speed: 2000, 
+    fade: true, 
     cssEase: "linear",
   };
   return (
@@ -29,7 +29,7 @@ function Home() {
             <p>Натуральные ритуалы ухода за телом</p>
           </div>
           <div>
-            <img src="/home_page/room-decor.jpg" alt="Интерьер" />
+            <img src="/home_page/massage-room.png" alt="Интерьер" />
             <p>Погрузитесь в мир расслабления!</p>
           </div>
           <div>
