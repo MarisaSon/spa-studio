@@ -1,18 +1,18 @@
 import Slider from "react-slick";
-import "./Home.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "./Home.css";
 import Hero from "../components/Hero";
 
 function Home() {
   const settings = {
     dots: true,
-    arrows: true,
+    arrows: false,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 3000,
-    speed: 2000, 
-    fade: true, 
+    speed: 2000,
+    fade: true,
     cssEase: "linear",
   };
   return (
@@ -21,20 +21,33 @@ function Home() {
       <section className="home-slider">
         <Slider {...settings}>
           <div>
-            <img src="/home_page/room-decor.jpg" alt="Интерьер" />
-            <p>Погрузитесь в мир расслабления!</p>
+            <img src="/home_page/room.jpg" alt="Интерьер" />
+            <p>Пространство тишины, света и прикосновений</p>
+          </div>
+          <div>
+            <img src="/home_page/spa_interior.jpg" alt="Интерьер" />
+            <p>Погрузитесь в мир расслабления</p>
+          </div>
+          <div>
+            <img src="/home_page/massage-room.png" alt="Комната массажа" />
+            <p>Натуральные ритуалы ухода и красоты</p>
+          </div>
+          <div>
+            <img src="/home_page/massage_room.jpg" alt="Комната массажа" />
+            <p>Погрузитесь в мягкую заботу о теле и душе</p>
           </div>
           <div>
             <img src="/home_page/bath.jpg" alt="Ванна" />
-            <p>Натуральные ритуалы ухода за телом</p>
+            <p>Погружение в ароматные воды и древние ритуалы очищения</p>
+          </div>
+
+          <div>
+            <img src="/home_page/spa_.png" alt="Спа-атрибуты" />
+            <p>Натуральные масла, тёплый свет и сила прикосновения</p>
           </div>
           <div>
-            <img src="/home_page/massage-room.png" alt="Интерьер" />
-            <p>Погрузитесь в мир расслабления!</p>
-          </div>
-          <div>
-            <img src="/home_page/bath.jpg" alt="Ванна" />
-            <p>Натуральные ритуалы ухода за телом</p>
+            <img src="/home_page/spa.jpg" alt="Спа-атрибуты" />
+            <p>Каждая деталь — часть заботливого ритуала</p>
           </div>
         </Slider>
       </section>
@@ -45,6 +58,16 @@ function Home() {
           Spa-пространство осознанности, вдохновлённое образами древних богинь и
           философией ухода за телом. Здесь каждый ритуал наполнен смыслом,
           прикосновением и заботой.
+        </p>
+        <p>
+          Мы верим, что истинная красота рождается из состояния покоя и
+          внутренней наполненности. Поэтому в Soma всё устроено так, чтобы вы
+          могли почувствовать: вы — центр этого мира.
+        </p>
+        <p>
+          Здесь нет спешки, нет шаблонов. Только вы, тёплый свет, ароматы и
+          тишина, в которой рождается внутренний покой. Это не просто спа — это
+          обряд возвращения к себе.
         </p>
         <p>
           Позвольте себе замедлиться и вернуться к себе — обновлённой,

@@ -8,7 +8,7 @@ export default function Hero() {
           <p class="hero-subtitle">
             Пространство прикосновения, красоты и смысла
           </p>
-          <a href="#booking" class="hero-button">
+          <a href="/cart" class="hero-button">
             Записаться
           </a>
         </div>

@@ -2,10 +2,11 @@ import Swal from "sweetalert2";
 import "../styles/main.css";
 import { useState } from "react";
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 export default function Cart() {
   const location = useLocation();
+  const navigate = useNavigate();
   const { type, title, price } = location.state || {};
   let itemText;
 
@@ -85,12 +86,31 @@ export default function Cart() {
     setPhone("");
     setEmail("");
   };
+
+  const showServiceSelection = !type || !title || !price;
   return (
     <div className="cart-container">
       <form className="cart-form" onSubmit={handleAlert}>
         <div>
           <h1 className="page-title">Оформление заказа</h1>
-          <h2>{itemText}</h2>
+          {showServiceSelection ? (
+            <div className="select-service-block">
+              <h2>Пожалуйста, выберите услугу перед оформлением заказа:</h2>
+              <div className="service-buttons">
+                <button type="button" onClick={() => navigate("/rituals")}>
+                  SPA РИТУАЛЫ
+                </button>
+                <button type="button" onClick={() => navigate("/massages")}>
+                  МАССАЖИ
+                </button>
+                <button type="button" onClick={() => navigate("/certificates")}>
+                  СЕРТИФИКАТЫ
+                </button>
+              </div>
+            </div>
+          ) : (
+            <h2>{itemText}</h2>
+          )}
         </div>
 
         <div className="form-group">

@@ -7,7 +7,6 @@ import Massages from "./pages/Massages";
 import Certificates from "./pages/Certificates";
 import Contacts from "./pages/Contacts";
 import Cart from "./pages/Cart";
-import Booking from "./pages/Booking";
 import rituals from "./data/rituals";
 import massages from "./data/massages";
 import certificates from "./data/certificates";
@@ -24,8 +23,7 @@ function App() {
         <Route path="/massages" element={<Massages data={massages} />} />
         <Route path="/certificates" element={<Certificates data={certificates}  />} />
         <Route path="/contacts" element={<Contacts />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/booking" element={<Booking />} />
+        <Route path="/cart" element={<Cart />} />  
       </Routes>
       <Footer />
     </div>

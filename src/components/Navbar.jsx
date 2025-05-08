@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import "../components/Navbar.css"
+import "../components/Navbar.css";
 
 export default function Navbar() {
   return (
     <header className="logo">
       <Link to="/">
-        <img src="/logo.png" alt="Логотип" className="main-logo"/>
+        <img src="/logo.png" alt="Логотип" className="main-logo" />
       </Link>
       <nav className="menu">
         <ul className="link">
@@ -26,10 +26,7 @@ export default function Navbar() {
       </nav>
       <div className="actions">
         <Link to="/cart" className="cart-icon">
-          🛒
-        </Link>
-        <Link to="/booking" className="booking-button">
-          Онлайн запись
+          Оформление заказа
         </Link>
       </div>
     </header>

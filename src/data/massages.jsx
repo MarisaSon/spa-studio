@@ -5,7 +5,7 @@ const massages = [
     description: "Классический массаж с маслом на выбор.",
     time: 60,
     price: 3000,
-    img: "/home_page/stone-massage.jpg",
+    img: "/home_page/massage-boginy.jpg",
     type: "massage",
   },
   {
@@ -14,7 +14,7 @@ const massages = [
     description: "Легкий массаж всего тела с травянными мешочками.",
     time: 60,
     price: 4000,
-    img: "/home_page/massage.png",
+    img: "/home_page/garmony.jpg",
     type: "massage",
   },
   {
@@ -32,7 +32,7 @@ const massages = [
     description: "Релакс массаж ног и головы.",
     time: 60,
     price: 4100,
-    img: "/home_page/oil-massage.jpg",
+    img: "/home_page/relax-massage.jpg",
     type: "massage",
   },
   {
@@ -41,7 +41,7 @@ const massages = [
     description: "Массаж с водорослями.",
     time: 90,
     price: 4800,
-    img: "/home_page/stone-massage.jpg",
+    img: "/home_page/seaweed-massages.jpg",
     type: "massage",
   },
   {
@@ -50,7 +50,7 @@ const massages = [
     description: "Глубокий интенсивный массаж всего тела.",
     time: 60,
     price: 6000,
-    img: "/home_page/oil-massage.jpg",
+    img: "/home_page/strong-massage.jpg",
     type: "massage",
   },
 
@@ -60,7 +60,7 @@ const massages = [
     description: "Массаж лица на премиальной косметике.",
     time: 60,
     price: 4800,
-    img: "/home_page/oil-massage.jpg",
+    img: "/home_page/face-massage.jpg",
     type: "massage",
   },
   {
@@ -69,7 +69,7 @@ const massages = [
     description: "Массаж по шоколаду.",
     time: 90,
     price: 5800,
-    img: "/home_page/stone-massage.jpg",
+    img: "/home_page/chocolate-massage.jpg",
     type: "massage",
   },
   {
@@ -78,7 +78,7 @@ const massages = [
     description: "Массаж с маслом зародышей пшеницы и травяной компрес.",
     time: 90,
     price: 5500,
-    img: "/home_page/oil-massage.jpg",
+    img: "/home_page/nimfa-massage.jpg",
     type: "massage",
   },
 ];

@@ -1,7 +1,7 @@
 .hero {
     position: relative;
     height: 100vh;
-    background-image: url('/images/spa-bath.jpg'); /* замени на своё */
+    background-image: url('/home_page/composition-with-bath.jpg'); 
     background-size: cover;
     background-position: center;
     display: flex;

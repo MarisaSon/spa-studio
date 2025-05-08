@@ -40,13 +40,16 @@ li {
   gap: 16px;
 }
 
-.cart-icon {
-  font-size: 24px;
-  color: black;
+.actions a {
+  color: #fffdf8;
+  font-size: 18px;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
-.booking-button {
+
+
+/* .booking-button {
   padding: 8px 16px;
   background-color: #fffdf8;
   color:#B45C5C;
@@ -58,4 +61,4 @@ li {
 
 .booking-button:hover {
   background-color: rgb(200, 70, 50);
-}
+} */

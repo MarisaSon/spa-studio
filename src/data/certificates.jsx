@@ -4,7 +4,7 @@ const certificates = [
     title: "Электронный сертификат",
     description:
       "Сертификат будет отправлен в электронном виде на электронную почту, которую вы укажете.",
-    image: "/home_page/aroma-diffuser.jpg",
+    image: "/home_page/gift.png",
     price: "5 000 рублей",
     type: "certificate",
   },
@@ -14,7 +14,7 @@ const certificates = [
     title: "Пластиковый сертификат",
     description:
       "В стильной фирменной упаковке. Можно забрать бесплатно самовывозом из салона или оформить платную доставку курьерской службой экспресс-доставки.",
-    image: "/home_page/aroma-diffuser.jpg",
+    image: "/home_page/gift_2.png",
     price: "5 000 рублей",
     type: "certificate",
   },
@@ -24,7 +24,7 @@ const certificates = [
     title: "Электронный сертификат",
     description:
       "Сертификат будет отправлен в электронном виде на электронную почту, которую вы укажете.",
-    image: "/home_page/aroma-diffuser.jpg",
+    image: "/home_page/gift.png",
     price: "10 000 рублей",
     type: "certificate",
   },
@@ -34,7 +34,7 @@ const certificates = [
     title: "Пластиковый сертификат",
     description:
       "В стильной фирменной упаковке. Можно забрать бесплатно самовывозом из любого салона или оформить платную доставку курьерской службой экспресс-доставки.",
-    image: "/home_page/aroma-diffuser.jpg",
+    image: "/home_page/gift_2.png",
     price: "10 000 рублей",
     type: "certificate",
   },

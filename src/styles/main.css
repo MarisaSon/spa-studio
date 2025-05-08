@@ -165,3 +165,8 @@ body {
   border: none;
   border-radius: 8px;
 }
+
+.select-service-block {
+  margin: 20px 0;
+  text-align: center;
+}
