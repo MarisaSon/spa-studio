@@ -51,6 +51,29 @@ li {
   text-decoration: none;
 }
 
+@media (max-width: 1024px) {
+  header.logo {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 12px;
+  }
+
+  .actions {
+    margin-top: 12px;
+  }
+
+  .main-logo {
+    max-width: 160px;
+  }
+}
+
 @media (max-width: 768px) {
   header.logo {
     flex-direction: column;

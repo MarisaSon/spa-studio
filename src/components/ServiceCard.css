@@ -73,3 +73,55 @@
   align-items: center;
   flex-direction: column;
 }
+
+.card img {
+  width: 345px;
+  height: 230px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+/* адаптация под узкие экраны */
+@media (max-width: 480px) {
+  .card {
+    max-width: 100%;
+    padding: 16px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    max-width: 320px;
+  }
+
+  .card h2 {
+    font-size: 20px;
+  }
+
+  .card .description {
+    font-size: 14px;
+  }
+
+  .card button {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card {
+    width: 45%;
+    max-width: 400px;
+    padding: 20px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    max-width: 380px;
+  }
+
+  .card h2 {
+    font-size: 22px;
+  }
+}
