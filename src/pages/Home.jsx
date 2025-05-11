@@ -21,32 +21,32 @@ function Home() {
       <section className="home-slider">
         <Slider {...settings}>
           <div>
-            <img src="/home_page/room.jpg" alt="Интерьер" />
+            <img src="/img/slider/room.jpg" alt="Интерьер" />
             <p>Пространство тишины, света и прикосновений</p>
           </div>
           <div>
-            <img src="/home_page/spa_interior.jpg" alt="Интерьер" />
+            <img src="/img/slider/spa_interior.jpg" alt="Интерьер" />
             <p>Погрузитесь в мир расслабления</p>
           </div>
           <div>
-            <img src="/home_page/massage-room.png" alt="Комната массажа" />
+            <img src="/img/slider/massage-room.png" alt="Комната массажа" />
             <p>Натуральные ритуалы ухода и красоты</p>
           </div>
           <div>
-            <img src="/home_page/massage_room.jpg" alt="Комната массажа" />
+            <img src="/img/slider/massage_room.jpg" alt="Комната массажа" />
             <p>Погрузитесь в мягкую заботу о теле и душе</p>
           </div>
           <div>
-            <img src="/home_page/bath.jpg" alt="Ванна" />
+            <img src="/img/slider/bath.jpg" alt="Ванна" />
             <p>Погружение в ароматные воды и древние ритуалы очищения</p>
           </div>
 
           <div>
-            <img src="/home_page/spa_.png" alt="Спа-атрибуты" />
+            <img src="/img/slider/spa_.png" alt="Спа-атрибуты" />
             <p>Натуральные масла, тёплый свет и сила прикосновения</p>
           </div>
           <div>
-            <img src="/home_page/spa.jpg" alt="Спа-атрибуты" />
+            <img src="/img/slider/spa.jpg" alt="Спа-атрибуты" />
             <p>Каждая деталь — часть заботливого ритуала</p>
           </div>
         </Slider>
