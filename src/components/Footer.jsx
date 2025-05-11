@@ -1,19 +1,12 @@
 import "../components/Footer.css";
+import SocialIcons from "./SocialIcons";
 
 export default function Footer() {
   return (
     <footer class="dark-footer">
       <div class="footer-top">
-        <div class="footer-social">
-          <a href="#" aria-label="Instagram" class="social-icon instagram">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="#" aria-label="Telegram" class="social-icon telegram">
-            <i class="fab fa-telegram-plane"></i>
-          </a>
-          <a href="#" aria-label="WhatsApp" class="social-icon whatsapp">
-            <i class="fab fa-whatsapp"></i>
-          </a>
+        <div className="footer-social">
+          <SocialIcons />
         </div>
 
         <div class="footer-contacts">
