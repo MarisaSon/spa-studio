@@ -8,21 +8,21 @@ export default function SocialIcons() {
   return (
     <div className="social-icons">
       <a
-        href="https://www.instagram.com/no_profile"
+        href="https://www.instagram.com/soma_massages"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img src={InstagramIcon} alt="Instagram" />
       </a>
       <a
-        href="https://t.me/no_channel"
+        href="https://t.me/soma_massages"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img src={TelegramIcon} alt="Telegram" />
       </a>
       <a
-        href="https://wa.me/79998887766"
+        href="https://wa.me/79991234567"
         target="_blank"
         rel="noopener noreferrer"
       >

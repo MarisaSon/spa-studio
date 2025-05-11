@@ -66,6 +66,10 @@ li {
   border-radius: 3px;
 }
 
+.logo-part {
+  width: 150px;
+}
+
 @media (max-width: 1024px) {
   header.logo {
     align-items: center;
@@ -94,7 +98,7 @@ li {
   }
 
   .logo-part {
-    width:100%;
+    width: 100%;
     order: 0;
     display: flex;
     justify-content: center;

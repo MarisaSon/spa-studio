@@ -12,7 +12,7 @@ export default function Navbar() {
     <header className="logo">
       <div className="logo-part">
         <Link to="/">
-          <img src="/logo.png" alt="Логотип" className="main-logo" />
+          <img src="/logo.jpg" alt="Логотип" className="main-logo" />
         </Link>
       </div>
       <div className="burger" onClick={toggleMenu}>
