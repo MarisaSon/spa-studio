@@ -1,12 +1,17 @@
-# React + Vite
+# SPA Studio – Учебный проект на React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Это учебный проект для сайта спа-студии, разработанный в рамках курса по React. Проект представляет собой одностраничное приложение (SPA), реализованное с использованием React Router, хуков, UI-компонентов и интерактивных элементов.
 
-Currently, two official plugins are available:
+##  Цели проекта
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Закрепить основы React: компоненты, маршрутизация, хуки.
+- Научиться работать с фильтрацией данных с помощью `filter()` и `map()`.
+- Использовать внешние UI-библиотеки и слайдеры.
+- Практиковать современную верстку и композицию интерфейса.
 
-## Expanding the ESLint configuration
+##  Использованные технологии
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- React Router DOM
+- React Hooks (`useState`, `useEffect`)
+- Слайдер: React Slick
