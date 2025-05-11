@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Hero.css";
 export default function Hero() {
   return (
@@ -8,9 +9,9 @@ export default function Hero() {
           <p class="hero-subtitle">
             Пространство прикосновения, красоты и смысла
           </p>
-          <a href="/cart" class="hero-button">
-            Записаться
-          </a>
+          <Link to="/cart" className="hero-button">
+          Записаться
+          </Link>
         </div>
       </div>
     </section>
