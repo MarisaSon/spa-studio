@@ -10,9 +10,11 @@ export default function Navbar() {
 
   return (
     <header className="logo">
-      <Link to="/">
-        <img src="/logo.png" alt="Логотип" className="main-logo" />
-      </Link>
+      <div className="logo-part">
+        <Link to="/">
+          <img src="/logo.png" alt="Логотип" className="main-logo" />
+        </Link>
+      </div>
       <div className="burger" onClick={toggleMenu}>
         <span></span>
         <span></span>

@@ -68,7 +68,7 @@ li {
 
 @media (max-width: 1024px) {
   header.logo {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     gap: 16px;
   }
@@ -91,17 +91,26 @@ li {
 
 @media (max-width: 768px) {
   header.logo {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: flex-start;
+  }
+
+  .logo-part {
+    width:100%;
+    order: 0;
+    display: flex;
+    justify-content: center;
   }
 
   .burger {
     display: flex;
+    order: 2;
   }
 
   .menu {
     display: none;
     width: 100%;
+    order: 3;
   }
 
   .menu.open {
@@ -109,7 +118,7 @@ li {
   }
 
   .menu ul {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     gap: 8px;
     padding: 0;
@@ -122,12 +131,13 @@ li {
 
   .actions {
     margin-top: 12px;
+    order: 1;
   }
 }
 
 @media (max-width: 480px) {
   header.logo {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: stretch;
     gap: 12px;
     padding: 12px;
