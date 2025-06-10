@@ -170,3 +170,56 @@ body {
   margin: 20px 0;
   text-align: center;
 }
+
+.cart-list {
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.cart-item {
+  list-style: none;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item p {
+  margin-bottom: 8px;
+}
+
+.cart-item-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.cart-item-controls .quantity-button {
+  width: 32px;
+  padding: 6px;
+}
+
+.cart-item-controls .remove-button {
+  padding: 6px 12px;
+  margin-left: auto;
+  width: auto;
+  padding: 10px 16px;
+  height: 40px;
+}
+
+.add-certificate-button {
+  background-color: #b3bc62;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: block;
+  margin: 24px auto;
+}
+
+.add-certificate-button:hover {
+  background-color: #b0cc00;
+}

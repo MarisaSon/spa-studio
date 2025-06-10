@@ -47,8 +47,9 @@ export default function Navbar() {
       </nav>
       <div className="actions">
         <Link to="/cart" className="cart-icon">
-          Оформление заказа
+          Онлайн запись
         </Link>
+        <Link to="/reduxCart">Купить сертификат</Link>
       </div>
     </header>
   );

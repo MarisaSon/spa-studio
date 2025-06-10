@@ -146,7 +146,7 @@ export default function Cart() {
             type="email"
             name="email"
             required
-            placeholder="Почта для отправки сертификата"
+            placeholder="example@mail.ru"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />

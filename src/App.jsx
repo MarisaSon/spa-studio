@@ -11,6 +11,7 @@ import rituals from "./data/rituals";
 import massages from "./data/massages";
 import certificates from "./data/certificates";
 import Footer from "./components/Footer";
+import ReduxCart from "./pages/ReduxCart";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/certificates" element={<Certificates data={certificates}  />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/cart" element={<Cart />} />  
+        <Route path="/reduxCart" element={<ReduxCart/>} />  
       </Routes>
       <Footer />
     </div>

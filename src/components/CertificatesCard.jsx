@@ -1,16 +1,15 @@
 import { useNavigate } from "react-router-dom";
 import "./CertificatesCard.css";
+import { useDispatch } from "react-redux";
+import { addItemToCart } from "../redux/cartSlice";
 export default function CertificatesCard({ certificate }) {
-  const { title, description, image, price, type } = certificate;
+  const dispatch = useDispatch();
+  const { title, description, image, price } = certificate;
   const navigate = useNavigate();
   const handleBuyClick = () => {
-    navigate("/cart", {
-      state: {
-        title: title,
-        price: price,
-        type: type,
-      },
-    });
+    const cleanPrice = Number(price.split("руб")[0].trim().replaceAll(" ", ""));
+    dispatch(addItemToCart({ ...certificate, price: cleanPrice }));
+    navigate("/reduxCart");
   };
   return (
     <div className="certificate-container">
