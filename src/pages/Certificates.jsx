@@ -11,7 +11,9 @@ export default function Certificates({ data }) {
         пространство, где тело и душа наконец встречаются.
       </p>
       {data.map((certificate) => {
-        return <CertificatesCard certificate={certificate} />;
+        return (
+          <CertificatesCard key={certificate.id} certificate={certificate} />
+        );
       })}
     </div>
   );

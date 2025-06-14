@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 import "./Hero.css";
 export default function Hero() {
   return (
-    <section class="hero">
-      <div class="hero-overlay">
-        <div class="hero-content">
-          <h1 class="hero-title">Добро пожаловать в Soma</h1>
-          <p class="hero-subtitle">
+    <section className="hero">
+      <div className="hero-overlay">
+        <div className="hero-content">
+          <h1 className="hero-title">Добро пожаловать в Soma</h1>
+          <p className="hero-subtitle">
             Пространство прикосновения, красоты и смысла
           </p>
           <Link to="/cart" className="hero-button">

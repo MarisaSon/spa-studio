@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "./CertificatesCard.css";
 import { useDispatch } from "react-redux";
-import { addItemToCart } from "../redux/cartSlice";
+import { addItemToCart } from "../../redux/cartSlice";
 export default function CertificatesCard({ certificate }) {
   const dispatch = useDispatch();
   const { title, description, image, price } = certificate;

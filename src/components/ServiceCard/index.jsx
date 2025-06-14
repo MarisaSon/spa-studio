@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "../components/ServiceCard.css";
+import "./ServiceCard.css";
 function ServiceCard({ cardData }) {
   const { title, description, time, price, img, short, type } = cardData;
   const buttonText =

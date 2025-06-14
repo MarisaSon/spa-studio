@@ -207,7 +207,7 @@ body {
 }
 
 .add-certificate-button {
-  background-color: #b3bc62;
+  background-color: #d6a58b;
   color: #000;
   font-size: 16px;
   font-weight: 500;
@@ -221,5 +221,5 @@ body {
 }
 
 .add-certificate-button:hover {
-  background-color: #b0cc00;
+  background-color: #c88b70;
 }

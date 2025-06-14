@@ -19,7 +19,7 @@ export default function Massages({ data }) {
       <Button filteredMassage={filteredMassage} clearFilter={clearFilter} />
       <div className="card-container">
         {massages.map((massage) => {
-          return <ServiceCard cardData={massage} />;
+          return <ServiceCard key={massage.id} cardData={massage} />;
         })}
       </div>
     </div>

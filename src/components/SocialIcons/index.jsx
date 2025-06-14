@@ -1,8 +1,8 @@
 import React from "react";
 import "./SocialIcons.css";
-import InstagramIcon from "../assets/icons/instagram.svg";
-import TelegramIcon from "../assets/icons/telegram.svg";
-import WhatsAppIcon from "../assets/icons/whatsapp.svg";
+import InstagramIcon from "../../assets/icons/instagram.svg";
+import TelegramIcon from "../../assets/icons/telegram.svg";
+import WhatsAppIcon from "../../assets/icons/whatsapp.svg";
 
 export default function SocialIcons() {
   return (
